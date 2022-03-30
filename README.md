@@ -1,2 +1,3 @@
 # LEARN-JAVASCRIPT
  Here i try understood JS things
+ Obviously they are pathetic...
