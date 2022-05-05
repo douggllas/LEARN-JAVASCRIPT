@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplos</title>
+</head>
+
+<body>
+    <script>
+        let objetoServidor = {
+            acesso: true,
+            login: "mundojs"
+        };
+        let objetoServidor2 = {
+            erro: "Erro ao conectar ao servidor"
+        };
+        function conexaoLogin(respostaDoServidor)
+
+        if (respostaDoServidor) {
+            if (acesso) {
+                console.log('login: ${respostaDoServidor.login}');
+            } else {
+                console.log("acesso negado!");
+            }
+        } else {
+            console.log(respostaDoServidor.erro);
+        }
+
+
+
+    </script>
+</body>
+
+</html>
